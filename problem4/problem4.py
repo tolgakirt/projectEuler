@@ -23,10 +23,12 @@ while (i <= 999):
         product = i * j
         if (product > greatest and Palindrome(str(product))):
             greatest = product
+            correct_i = i
+            correct_j = j 
+            	
         j += 1
     j = 100
     i += 1
 print "Answer: " + str(greatest)
-print i
-print j
-#learn to print i a and j
+
+print str(correct_i) + " " + str(correct_j)
