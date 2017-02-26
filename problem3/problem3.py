@@ -20,3 +20,12 @@ while i * i < n:
      i = i + 1
 
 print (n)
+
+#---------------------------------------------
+#how to calculate elapsed time
+
+#start = time.time()
+#for i in range(2,n):  i*i < n
+#elapsed = (time.time() - start)
+
+#print "this took %s seconds" % elapsed
